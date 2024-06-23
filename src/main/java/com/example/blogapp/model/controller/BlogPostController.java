@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-//@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/api/blogposts")
+@CrossOrigin(origins = "http://localhost:3000")
+
 public class BlogPostController {
 
     @Autowired
